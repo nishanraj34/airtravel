@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url( bg.png   );
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 80% auto;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#menu {
+    list-style-type: none;
+    display: flex;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#menu a{
+    padding: 15px;
+}
+#menu li:last-child{
+    margin-left: 60px;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#intro{
+    /* height: 80vh; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#goods h2{
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 100px;
+}
+.good-child{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: calc(25% - 50px);
+
+}
+.good-child h3{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
